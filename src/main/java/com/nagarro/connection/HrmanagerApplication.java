@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class HrmanagerApplication {
 
 	public static void main(String[] args) {
+		System.out.println("I am here");
 		SpringApplication.run(HrmanagerApplication.class, args);
 	}
 	
